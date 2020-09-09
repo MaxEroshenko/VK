@@ -31,4 +31,21 @@ public class PostCommentsBlock {
 
 //    + get/set на все поля
 
+    // Блок "Запись на стене"
+    private String id;
+    private String ownerId;
+    private String createdBy;
+    private String date;
+    private String replyPostId;
+    private String friendsOnly;
+    private String copyright;
+    private String userLikes;
+    private String canLike;
+    private String geoType;
+    private String coordinates;
+    private String place;
+    private String signerId;
+    private String isPinned;
+    private String markedAsAds;
+
 }

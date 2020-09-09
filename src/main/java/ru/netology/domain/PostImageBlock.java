@@ -44,5 +44,10 @@ public class PostImageBlock {
 
     // + get/set на все поля
 
+    //Комментарии к записи
+    private String id;
+    private String text;
+    private String attachments;
+
 
 }
