@@ -37,17 +37,17 @@ public class PostCommentsBlock {
     private boolean date;
     private boolean commentsInfo;
     private int commentCount;
-    private int commentCanPost;
-    private int commentCanClose;
-    private int commentCanOpen;
+    private boolean commentCanPost;
+    private boolean commentCanClose;
+    private boolean commentCanOpen;
     private boolean likesInfo;
     private int likeCount;
-    private int canLike;
-    private int canPublish;
+    private boolean canLike;
+    private boolean canPublish;
     private boolean repostsInfo;
     private int repostCount;
     private boolean viewsInfo;
     private  int viewCount;
-    private String markedAsAds;
+    private boolean markedAsAds;
 
 }

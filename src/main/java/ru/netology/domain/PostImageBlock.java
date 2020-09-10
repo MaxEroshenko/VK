@@ -36,7 +36,7 @@ public class PostImageBlock {
 
     //Блок комментариев к фото
     private String commentAuthor;
-    private String commentTime;
+    private int commentTime;
     private String buttonShowPreviousComments;
     private int likeButtonInComments;
     private String replyButtonToComment;
