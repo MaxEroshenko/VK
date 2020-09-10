@@ -3,10 +3,10 @@ package ru.netology.domain;
 public class PostImageBlock {
     private boolean imageUrl;
     private String photosOnTheCommunityWall;
-    private String numberOfPhotos;
+    private int numberOfPhotos;
     private String shareButton;
     private String saveButton;
-    private String photoFlipButton;
+    private int photoFlipButton;
     private String buttonCloseBlock;
 
     // Кнопка "еще"
@@ -31,14 +31,14 @@ public class PostImageBlock {
 
     //Описание фото
     private boolean photoDescription;
-    private String likeButton;
-    private String repostButton;
+    private int likeButton;
+    private int repostButton;
 
     //Блок комментариев к фото
     private String commentAuthor;
     private String commentTime;
     private String buttonShowPreviousComments;
-    private String likeButtonInComments;
+    private int likeButtonInComments;
     private String replyButtonToComment;
     private String writeCommentField;
 

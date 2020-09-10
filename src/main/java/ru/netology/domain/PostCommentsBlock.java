@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class PostCommentsBlock {
     private boolean buttonComment;
     private String buttonCommentImageUrl;
-    private String countComment;
+    private int countComment;
     private boolean buttonSendComment;
     private String imageButtonSendCommentUrl;
     private String textComment;
@@ -12,11 +12,11 @@ public class PostCommentsBlock {
     //    Лайки к комментариям
     private boolean likeComment;
     private String likeImageUrl;
-    private String countLike;
+    private int countLike;
     private String textLikes;
     private boolean buttonShareComment;
     private String buttonShareCommentImageUrl;
-    private String authorLikeId;
+    private int authorLikeId;
     private String authorLikeUrl;
     private String authorLikeImageUrl;
 
@@ -29,23 +29,25 @@ public class PostCommentsBlock {
     private String authorUrl;
     private String authorImageUrl;
 
-//    + get/set на все поля
+    //    + get/set на все поля
 
     // Блок "Запись на стене"
-    private String id;
-    private String ownerId;
-    private String createdBy;
-    private String date;
-    private String replyPostId;
-    private String friendsOnly;
-    private String copyright;
-    private String userLikes;
-    private String canLike;
-    private String geoType;
-    private String coordinates;
-    private String place;
-    private String signerId;
-    private String isPinned;
+    private boolean id;
+    private boolean ownerId;
+    private boolean date;
+    private boolean commentsInfo;
+    private int commentCount;
+    private int commentCanPost;
+    private int commentCanClose;
+    private int commentCanOpen;
+    private boolean likesInfo;
+    private int likeCount;
+    private int canLike;
+    private int canPublish;
+    private boolean repostsInfo;
+    private int repostCount;
+    private boolean viewsInfo;
+    private  int viewCount;
     private String markedAsAds;
 
 }
